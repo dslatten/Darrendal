@@ -35,12 +35,24 @@ This demo uses the following 3rd-party libraries, which can be found under /lib 
         <th>jQuery</th>
         <td><a href="http://jquery.com/">Home</a></td>
         <td><a href="https://github.com/jquery/jquery">Git</a></td>
-        <td><a href="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js">CDN</a></td>
+        <td><a href="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js">CDN</a></td>
     </tr>
     <tr>
         <th>Knockout</th>
         <td><a href="http://knockoutjs.com/">Home</a></td>
         <td><a href="https://github.com/SteveSanderson/knockout/">Git</a></td>
         <td><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js">CDN</a></td>
+    </tr>
+    <tr>
+        <th>Bootstrap</th>
+        <td><a href="http://twitter.github.io/bootstrap/">Home</a></td>
+        <td><a href="http://github.com/twitter/bootstrap">Git</a></td>
+        <td></td>
+    </tr>
+    <tr>
+        <th>Font Awesome</th>
+        <td><a href="http://fortawesome.github.io/Font-Awesome/">Home</a></td>
+        <td><a href="https://github.com/FortAwesome/Font-Awesome">Git</a></td>
+        <td><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">CDN</a></td>
     </tr>
 </table>
