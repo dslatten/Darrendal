@@ -27,7 +27,7 @@ This demo uses the following 3rd-party libraries, which can be found under /lib 
     </tr>
     <tr>
         <th>RequireJS Text</th>
-        <td></td>
+        <td><a href="http://requirejs.org/docs/api.html#text">Home</a></td>
         <td><a href="https://github.com/requirejs/text">Git</a></td>
         <td></td>
     </tr>
