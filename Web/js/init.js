@@ -24,9 +24,6 @@
             knockout: [
                 'lib/knockout/knockout-2.2.1'
             ],
-            sammy: [
-                'lib/sammy/sammy-0.7.4.min'
-            ],
             bootstrap: [
                 'lib/bootstrap/js/bootstrap.min'
             ],
@@ -43,10 +40,6 @@
             },
             'knockout': {
                 exports: 'ko'
-            },
-            'sammy': {
-                deps: ['jquery'],
-                exports: 'Sammy'
             },
             'bootstrap': {
                 deps: ['jquery']
