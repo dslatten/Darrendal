@@ -1,4 +1,6 @@
-﻿define(['./system'], function (system) {
+﻿define(['./system'],
+function (system) {
+
     var parseMarkup;
 
     if ($.parseHTML) {

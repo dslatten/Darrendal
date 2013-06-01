@@ -1,20 +1,11 @@
-﻿requirejs.config({
-    paths: {
-        'text': 'durandal/amd/text'
-    }
-});
+﻿define(['durandal/app', 'durandal/system', 'durandal/viewLocator', 'durandal/plugins/router', 'jquery'],
+function (app, system, viewLocator, router, $) {
 
-define(['durandal/app', 'durandal/system', 'durandal/viewLocator'],
-  function (app, system, viewLocator) {
-    
     system.debug(true);
-    
     app.title = 'Durandal Samples';
     app.start().then(function () {
-        //Replace 'viewmodels' in the moduleId with 'views' to locate the view.
-        //Look for partial views in a 'views' folder in the root.
-        viewLocator.useConvention();
-
-        app.setRoot('samples/shell');
+        viewLocator.useConvention('app/viewmodels', 'app/views');
+        app.adaptToDevice();
+        app.setRoot('app/samples/shell');
     });
 });
