@@ -1,5 +1,6 @@
-﻿define(['durandal/plugins/router'], function (router) {
-    
+﻿define(['durandal/plugins/router'],
+function (router) {
+
     return {
         router: router,
         activate: function () {

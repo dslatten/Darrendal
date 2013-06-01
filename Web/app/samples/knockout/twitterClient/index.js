@@ -1,4 +1,5 @@
-﻿define(['durandal/system','durandal/app'], function (system,app) {
+﻿define(['durandal/system','durandal/app', 'knockout'],
+function (system, app, ko) {
 
     var initialLists = [
             { name: "SPA Advocates", userNames: ['DurandalJS','John_Papa','EisenbergEffect','wardbell','DanWahlin', 'mikekidder',] },

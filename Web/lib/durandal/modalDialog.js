@@ -1,5 +1,5 @@
 ﻿define(['./composition', './system', './viewModel'],
-    function (composition, system, viewModel) {
+function (composition, system, viewModel) {
 
     var contexts = {},
         modalCount = 0;
