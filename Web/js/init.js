@@ -24,9 +24,6 @@
             knockout: [
                 'lib/knockout/knockout-2.2.1'
             ],
-            bootstrap: [
-                'lib/bootstrap/js/bootstrap.min'
-            ],
             text: [
                 'lib/require-text/text-2.0.6'
             ],
@@ -40,9 +37,6 @@
             },
             'knockout': {
                 exports: 'ko'
-            },
-            'bootstrap': {
-                deps: ['jquery']
             }
         }
     };
