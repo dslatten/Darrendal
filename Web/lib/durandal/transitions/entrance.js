@@ -1,5 +1,5 @@
-﻿define(['../system', 'knockout'],
-function (system, ko) {
+﻿define(['../system', 'jquery', 'knockout'],
+function (system, $, ko) {
 
     var fadeOutDuration = 100;
     var endValues = {
