@@ -14,12 +14,6 @@ This demo uses the following 3rd-party libraries, which can be found under /lib 
         <td></td>
     </tr>
     <tr>
-        <th>Sammy</th>
-        <td><a href="http://sammyjs.org/">Home</a></td>
-        <td><a href="https://github.com/quirkey/sammy">Git</a></td>
-        <td><a href="//cdnjs.cloudflare.com/ajax/libs/sammy.js/0.7.4/sammy.min.js">CDN</a></td>
-    </tr>
-    <tr>
         <th>RequireJS</th>
         <td><a href="http://requirejs.org/">Home</a></td>
         <td><a href="https://github.com/jrburke/requirejs">Git</a></td>
