@@ -1,5 +1,5 @@
-﻿define(['./system'],
-function (system) {
+﻿define(['./system', 'jquery'],
+function (system, $) {
 
     var parseMarkup;
 

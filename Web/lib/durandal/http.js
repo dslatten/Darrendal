@@ -1,5 +1,5 @@
-﻿define(['knockout'],
-function (ko) {
+﻿define(['jquery', 'knockout'],
+function ($, ko) {
 
     return {
         defaultJSONPCallbackParam:'callback',

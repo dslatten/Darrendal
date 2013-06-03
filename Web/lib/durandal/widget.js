@@ -1,5 +1,5 @@
-﻿define(['./system', './composition', 'knockout'],
-function (system, composition, ko) {
+﻿define(['./system', './composition', 'jquery', 'knockout'],
+function (system, composition, $, ko) {
 
     var widgetPartAttribute = 'data-part',
         widgetPartSelector = '[' + widgetPartAttribute + ']';
