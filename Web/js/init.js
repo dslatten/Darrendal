@@ -1,10 +1,3 @@
-/* ========================================================================== *\
-    Everything in this file is wrapped in an anonymous immediately-invoked 
-    function expression and it executes within the context of the host 
-    page's <head> element on the initial pass. Therefore, if you add your 
-    own code here, do not reference DOM elements in the <body>, because they 
-    probably haven't been parsed yet and you'll get an error. 
-\* ========================================================================== */
 (function() {
 
     /* ------------------------------------------------------------------ *\
@@ -12,8 +5,58 @@
         http://requirejs.org/docs/api.html#config
     \* ------------------------------------------------------------------ */
     require = {
-        enforceDefine: false,
+        
+        /* ---------------------------------------------------------- *\
+            enforceDefine
+            http://requirejs.org/docs/api.html#config-enforceDefine
+        \* ---------------------------------------------------------- */
+        enforceDefine: true,
+
+        /* ---------------------------------------------------------- *\
+            baseUrl
+            http://requirejs.org/docs/api.html#config-baseUrl
+
+            The baseUrl determines the root path to use for looking
+            up modules on the local file system. Module locations
+            specified by the `paths` configuration (see below) are
+            defined relative to the baseUrl location.
+
+            The baseUrl is *not* used for looking up plain (non-AMD)
+            JavaScript files or externally-hosted dependencies
+            (dependency identifiers that begin with "/", have a
+            protocol, or end in ".js"), which are instead looked up
+            relative to the page that loads require.js (in our case,
+            that would be /index.html).
+
+            If the baseUrl is not set, it defaults to the path
+            specified by the `data-main` attribute of the <script>
+            tag that loads require.js. If that attribute isn't set,
+            baseUrl defaults to the location of the page that loads
+            require.js.
+        \* ---------------------------------------------------------- */
         baseUrl: './',
+
+        /* ---------------------------------------------------------- *\
+            paths
+            http://requirejs.org/docs/api.html#config-paths
+
+            By default, require.js will look for modules in the
+            baseUrl directory. If your module files are not stored
+            directly inside that folder, you can use `paths` to tell
+            require.js where to find them.
+
+            Each path has two parts: a name and a location.
+
+            In most cases, the name corresponds to a module ID, and
+            the location represents a relative path from the baseUrl
+            to that module (with no file extension). In other cases,
+            the name refers to the directory component of a module
+            ID, and the location represents a relative path from the
+            baseUrl to that directory.
+
+            Locations can also be absolute paths (if they start with
+            "/") or URLs (if they include a protocol, like "http:").
+        \* ---------------------------------------------------------- */
         paths: {
             durandal: [
                 'lib/durandal'
@@ -36,6 +79,7 @@
         },
 
         /* ---------------------------------------------------------- *\
+            map
             http://requirejs.org/docs/api.html#config-map
         \* ---------------------------------------------------------- */
         map: {
