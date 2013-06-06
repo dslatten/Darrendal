@@ -1,52 +1,30 @@
-# Welcome to the Darrendal project!
+Welcome to the Durandal project!
 
-This is a fork of the <a href="http://www.durandaljs.com">Durandal SPA framework</a>. The purpose of this fork is to demonstrate how Durandal could be refactored with an emphasis on client-side usage and best practices. This demo attempts to exemplify a modular architecture, while adhering to front-end development best practices.
+[![Build Status](https://travis-ci.org/BlueSpire/Durandal.png?branch=master)](https://travis-ci.org/BlueSpire/Durandal)
 
-## 3rd-Party Libs
 
-This demo uses the following 3rd-party libraries, which can be found under /lib (including their respective licenses and README files, when available):
+Durandal is a cross-device, cross-platform client framework written in JavaScript and designed to make Single Page Applications (SPAs) easy to create and maintain. We've used it to build apps for PC, Mac, Linux, iOS and Android...and now it's your turn...
 
-<table>
-    <tr>
-        <th>Durandal</th>
-        <td><a href="http://durandaljs.com/">Home</a></td>
-        <td><a href="https://github.com/BlueSpire/Durandal">Git</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>RequireJS</th>
-        <td><a href="http://requirejs.org/">Home</a></td>
-        <td><a href="https://github.com/jrburke/requirejs">Git</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>RequireJS Text</th>
-        <td><a href="http://requirejs.org/docs/api.html#text">Home</a></td>
-        <td><a href="https://github.com/requirejs/text">Git</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>jQuery</th>
-        <td><a href="http://jquery.com/">Home</a></td>
-        <td><a href="https://github.com/jquery/jquery">Git</a></td>
-        <td><a href="//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.0/jquery.min.js">CDN</a></td>
-    </tr>
-    <tr>
-        <th>Knockout</th>
-        <td><a href="http://knockoutjs.com/">Home</a></td>
-        <td><a href="https://github.com/SteveSanderson/knockout/">Git</a></td>
-        <td><a href="//cdnjs.cloudflare.com/ajax/libs/knockout/2.2.1/knockout-min.js">CDN</a></td>
-    </tr>
-    <tr>
-        <th>Bootstrap</th>
-        <td><a href="http://twitter.github.io/bootstrap/">Home</a></td>
-        <td><a href="http://github.com/twitter/bootstrap">Git</a></td>
-        <td></td>
-    </tr>
-    <tr>
-        <th>Font Awesome</th>
-        <td><a href="http://fortawesome.github.io/Font-Awesome/">Home</a></td>
-        <td><a href="https://github.com/FortAwesome/Font-Awesome">Git</a></td>
-        <td><a href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/3.1.0/css/font-awesome.min.css">CDN</a></td>
-    </tr>
-</table>
+## Features
+
+* Clean MV* Architecture
+* JS & HTML Modularity
+* Simple App Lifecycle
+* Eventing, Modals, Message Boxes, etc.
+* Navigation & Screen State Management
+* Consistent Async Programming w/ Promises
+* App Bundling and Optimization
+* Use any Backend Technology
+* Built on top of [jQuery](http://jquery.com/), [Knockout](http://knockoutjs.com/) & [RequireJS](http://requirejs.org/).
+* Integrates with popular CSS libraries such as [Bootstrap](http://twitter.github.com/bootstrap/).
+* Make Your Own Templatable and Bindable Widgets
+
+## Documentation
+
+All the documentation is located on [the official site](http://durandaljs.com/pages/docs), so have a look there for help on how to get started, read tutorials, view sample descriptions and peruse the module reference docs.
+If you want to keep up to date with the activity that is happening on the master branch, you can [subscribe to the commit feed](https://github.com/BlueSpire/durandal/commits/master.atom).
+
+## Community
+
+Need help with something that the docs aren't providing an answer to? 
+Visit our [google group](https://groups.google.com/forum/?fromgroups#!forum/durandaljs) and join in the conversation. 
